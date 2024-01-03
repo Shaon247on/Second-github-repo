@@ -1,10 +1,28 @@
 div{
-    background-color: tomato;
+    /* background-color: aquamarine; */
     padding: 15px;
-    text-align: center;
+    display:grid;
+    align-items: center;
 }
 h2{
     background-color: aqua; 
     border: 4px solid; 
     text-align: center;
+    width: 400px;
+    margin: auto 25% auto 38%;
+}
+.Background{
+    background-image: url(Image/Cover.jpg);
+
+    background-repeat:space;
+    background-position: 50%;
+}
+p{
+    margin: 2px 25%;
+    width: 50%;
+    padding: 10px;
+    border: 4px solid;
+    border-radius: 8px;
+    background-color: orange;
+    text-align: justify;
 }

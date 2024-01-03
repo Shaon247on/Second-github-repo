@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+.Background{
+    min-height: 1080px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+.Background::before {
+    content: '';
+    background-image: url(../Image/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+h1{
+    margin: 16% 60% 25% 5%;
+    font-size: 60px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(91, 240, 245);
+    text-shadow: 9px 9px 5px black;
+    text-align: left bottom 50%;
+    position: relative;
+}
+span{
+    display: block;
+    text-align: center;
+
+}
