@@ -1,8 +1,32 @@
 *{
-    margin: 0px;
+    margin: 0px;    
     padding: 0px;
-    
 }
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    word-spacing: 35px;
+    letter-spacing: 8px;
+    height: 120px;
+    border-bottom: 30px solid white;
+    padding-bottom: 10px;
+    background-image: url('../Image/Header2.jpg');
+    background-repeat:no-repeat;
+    backface-visibility: visible;
+    background-size:100%;
+    font-family: 'Bungee Spice', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oleo Script', system-ui;
+    color:rgb(84, 214, 214);
+}
+
+u{
+    display: inline-block;
+}
+
 img{
     height: 95vh;
     width: 142.5vh;
@@ -11,11 +35,12 @@ img{
     align-items: center;
     justify-content: center;
 }
+
 .Background{
     /* margin-left: 50px; */
     background-color: rgba(30, 30, 189, 0.274);
     height: 90vh;
-    width: 74vh;
+    width: 69vh;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +48,8 @@ img{
     float: left; 
     padding: 15px;
 }
-h1{
+
+h2{
     margin-top: 80px;
     display: flex;
     flex-direction: column;
@@ -41,6 +67,7 @@ h1{
     padding: 20px;
    
 }
+
 span{
     display: flex;
     flex-direction: column;
@@ -54,9 +81,11 @@ span{
     
     
 }
+
 #meet{
     margin-top: 25px;
 }
+
 i{
     display: flex;
     justify-content: center;
@@ -68,6 +97,7 @@ i{
     
     /* box-shadow: 5px 5px 9px; */
 }
+
 a{
     margin: 50px;
     height: min-content;
@@ -78,8 +108,27 @@ a{
     background-color:#caab45ec;
     text-decoration: none;
 }
+
 a:hover {
     background: cornsilk;
     color: #caab45ec;
     border: 6px unset cornsilk;
+}
+
+.footer{
+    width: 369vh;
+    font-size: 12px;
+    display: block;
+    justify-content: left bottom;
+    align-items: left bottom;
+    background-color: aquamarine;
+}
+
+body{
+    margin: 4px;
+    display: inline-flexbox;
+}
+
+b{
+    text-align: right;
 }
