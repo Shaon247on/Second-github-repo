@@ -1,0 +1,52 @@
+body{
+    font-family: 'Bungee Spice', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oleo Script', system-ui;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Menu{
+    display: flex;
+    justify-content: space-between;
+    
+}
+h3{
+    margin-top: 51px;
+    padding-left: 226px;
+    font-size: 43px;
+    font-weight: 800;
+}
+
+span{
+    color: #FD6E0A;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navigation-bar-container{
+    display: flex;
+    gap: 45px;
+    list-style: none;
+    margin-top: 50px;
+    padding-right: 230px;
+}
+.navigation-bars{
+    padding-top: 18px;
+    font-size: 20px;
+    font-weight: 400px;
+    color: #474747;
+}
+.Hire-me{
+    width: 150px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    background-color:#FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    flex-shrink: 0;
+    color: white;
+    
+}
