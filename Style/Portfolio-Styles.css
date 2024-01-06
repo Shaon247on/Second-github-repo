@@ -228,11 +228,7 @@ main section {
 
 /* start of remuse section */
 
-/* .resume-box {
-    width: 160px;
-    height: 425px;
-    background: #FFF;
-} */
+
 .resume-column-title {
     color: var(--Dark-02, #474747);
     font-size: 30px;
@@ -250,12 +246,15 @@ main section {
     color: #474747;
     font-size: 25px;
     font-weight: 700;
+    margin-bottom: 5px;
 }
 
 .resume-item-name {
     color: #757575;
     font-size: 20px;
     font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 15px;
 }
 
 .resume-item-description {
@@ -263,4 +262,8 @@ main section {
     font-size: 16px;
     font-weight: 400;
     width: 500px;
+    margin-top: 0px;
+}
+.Download CV{
+    text-align: center;
 }
