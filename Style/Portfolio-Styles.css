@@ -133,6 +133,10 @@ main {
 
 }
 
+main section {
+    margin-top: 130px;
+}
+
 /* about section :start */
 .about {
     margin: 110px 220px 100px;
@@ -182,18 +186,27 @@ main {
     font-weight: 400;
 }
 
+.skill-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
 .skills {
     width: 250px;
-    height: 365px;
-    border: 4px solid;
-    row-gap: 20px;
+    height: 350px;
+    /* border: 4px solid; */
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 
 .icons {
-    padding: 25px 150px 25px 25px;
+    padding: 25px 150px 0px 25px;
 }
 
 .skills-name {
+    padding-top: 0px;
     padding-right: auto;
     padding-left: 25px;
     font-size: 20px;
@@ -202,11 +215,52 @@ main {
 }
 
 .skills-description {
-    padding-top: 40px;
+    padding-top: 0px;
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 25px;
     color: var(--Dark-03, #757575);
     font-size: 16px;
     font-weight: 400;
+}
+
+/* end of what i do section */
+
+/* start of remuse section */
+
+/* .resume-box {
+    width: 160px;
+    height: 425px;
+    background: #FFF;
+} */
+.resume-column-title {
+    color: var(--Dark-02, #474747);
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.resume-display {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+.resume-item {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-item-name {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-item-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    width: 500px;
 }
