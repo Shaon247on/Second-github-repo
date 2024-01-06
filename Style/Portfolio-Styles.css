@@ -1,52 +1,96 @@
-body{
+body {
     font-family: 'Bungee Spice', sans-serif;
     font-family: 'Lato', sans-serif;
     font-family: 'Oleo Script', system-ui;
     font-family: 'Open Sans', sans-serif;
 }
 
-.Menu{
+.header-section {
+    background-color: #FFF8F3;
+    /* margin-left: 230px; */
+}
+
+.Menu {
     display: flex;
     justify-content: space-between;
-    
+    padding-left: 200px;
+
 }
-h3{
+
+h3 {
     margin-top: 51px;
-    padding-left: 226px;
+    margin-left: -4px;
     font-size: 43px;
     font-weight: 800;
 }
 
-span{
+span {
     color: #FD6E0A;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.navigation-bar-container{
+.navigation-bar-container {
     display: flex;
     gap: 45px;
     list-style: none;
     margin-top: 50px;
     padding-right: 230px;
 }
-.navigation-bars{
+
+.navigation-bars {
     padding-top: 18px;
     font-size: 20px;
     font-weight: 400px;
     color: #474747;
 }
-.Hire-me{
+
+.Hire-me {
     width: 150px;
     height: 64px;
     border: none;
     border-radius: 5px;
-    background-color:#FD6E0A;
+    background-color: #FD6E0A;
     font-size: 20px;
     font-weight: 700;
     flex-shrink: 0;
     color: white;
-    
+
+}
+
+.Bannar {
+    padding: 30px 30px 30px 210px;
+    display: flex;
+    align-items: center;
+}
+
+.Download {
+    width: 150px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    flex-shrink: 0;
+    color: white;
+
+}
+
+.Contact {
+    color: #FD6E0A;
+    width: 150px;
+    height: 64px;
+    /* text-align: center; */
+    /* font-family: Open Sans; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.Profile-Picture {
+    width: 584px;
+    height: 676px;
 }
