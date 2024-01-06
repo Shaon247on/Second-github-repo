@@ -135,7 +135,7 @@ main {
 
 /* about section :start */
 .about {
-    margin: 110px 220px;
+    margin: 110px 220px 100px;
     padding: 130px;
     background-color: #FFF8F3;
     border-radius: 10px;
@@ -160,11 +160,53 @@ main {
 .About-info-container {
     display: flex;
     justify-content: space-evenly;
-    
-    
+
+
 }
-.about-info{
+
+.about-info {
     font-size: 20px;
     font-weight: 400;
     text-align: center;
+}
+
+/* end of about section */
+
+/* Start of what i do section */
+
+#what-i-do {
+    padding: 5px 340px;
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.skills {
+    width: 250px;
+    height: 365px;
+    border: 4px solid;
+    row-gap: 20px;
+}
+
+.icons {
+    padding: 25px 150px 25px 25px;
+}
+
+.skills-name {
+    padding-right: auto;
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.skills-description {
+    padding-top: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
 }
