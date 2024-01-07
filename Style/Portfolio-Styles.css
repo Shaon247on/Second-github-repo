@@ -228,6 +228,13 @@ main section {
 
 /* start of remuse section */
 
+.resume-section{
+    width: 1450px;
+    /* display: flex; */
+    justify-content: center;
+
+}
+
 
 .resume-column-title {
     color: var(--Dark-02, #474747);
@@ -264,6 +271,39 @@ main section {
     width: 500px;
     margin-top: 0px;
 }
-.Download CV{
-    text-align: center;
+
+.Download-CV{
+    margin-left: 650px;
+    margin-top: 40px;
+    width: 200px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    flex-shrink: 0;
+    color: white;
+   
+}
+
+/* end of resume section */
+
+/* Start of footer section */
+.footer-column-container {
+    margin-top: 230px;
+    padding-top: 100px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    background-color: #4747475d;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.foooter-description {
+    width: 562px color:Dark-02, #474747;
+    font-size: 16px;
+    font-weight: 300;
 }
